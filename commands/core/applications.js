@@ -82,9 +82,9 @@ module.exports = {
                         .setRequired(true))
                 .addStringOption(option =>
                     option.setName('question')
-                        .setDescription('The question to add (max 200 characters).')
+                        .setDescription('The question to add (max 300 characters).')
                         .setRequired(true)
-                        .setMaxLength(200)))
+                        .setMaxLength(300)))
         .addSubcommand(subcommand =>
             subcommand
                 .setName('removequestion')
